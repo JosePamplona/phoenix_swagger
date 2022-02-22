@@ -39,7 +39,8 @@ defmodule PhoenixSwagger.Schema do
     :additionalProperties,
     :discriminator,
     :example,
-    :"x-nullable"
+    :"x-nullable",
+    :readOnly
   ]
 
   @doc """
